@@ -1,0 +1,38 @@
+/* RepoCard.css */
+
+.repo-card {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.repo-card h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #38bdf8;
+}
+
+.repo-card a {
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+.repo-card a:hover {
+  text-decoration: underline;
+}
+
+.repo-card p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}

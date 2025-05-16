@@ -1,0 +1,53 @@
+/* GetProfile.css */
+
+.chose {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.profileButton,
+.RepoButton {
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #334155;
+  color: #f1f5f9;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.profileButton:hover,
+.RepoButton:hover {
+  background-color: #475569;
+  transform: scale(1.05);
+}
+
+.profileButton:focus,
+.RepoButton:focus {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+}
+
+/* Error box */
+.ERROR-GRID {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #f87171;
+  background-color: #1e293b;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+}
+
+.ERROR-GRID h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.ERROR-GRID p {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+🔹 Repo: react-dashboard
+📄 Description: Admin panel built with React and Tailwind
+⭐ Stars: 24
+
+📊 Languages:
+JavaScript   | ████████████████████████  65%
+CSS          | ████████                  20%
+HTML         | █████                     15%
+
+
+🔹 Repo: api-server
+📄 Description: REST API for blog
+⭐ Stars: 45
+
+📊 Languages:
+Python       | ██████████████████        55%
+Dockerfile   | ██████                    20%
+YAML         | █████                     15%
+Shell        | ██                        10%
+
+
+🔹 Repo: api-server
+📄 Description: REST API for blog
+⭐ Stars: 45
+
+📊 Languages:
+Python       | ██████████████████        55%
+Dockerfile   | ██████                    20%
+YAML         | █████                     15%
+Shell        | ██                        10%

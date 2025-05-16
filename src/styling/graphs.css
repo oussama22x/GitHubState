@@ -1,0 +1,40 @@
+/* Bar.css */
+
+.language-row {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.language-name {
+  flex: 1 1 120px;
+  font-weight: 600;
+  color: #38bdf8; /* Cyan-ish */
+  white-space: nowrap;
+}
+
+.language-bar {
+  flex: 3 1 auto;
+  background-color: #334155; /* dark blue-gray */
+  border-radius: 8px;
+  height: 18px;
+  margin: 0 12px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.language-fill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #38bdf8 0%, #0ea5e9 100%);
+  border-radius: 8px 0 0 8px;
+  transition: width 0.5s ease-in-out;
+}
+
+.language-percent {
+  flex: 0 0 40px;
+  text-align: right;
+  font-weight: 600;
+  color: #cbd5e1; /* lighter gray */
+}
